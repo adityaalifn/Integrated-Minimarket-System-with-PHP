@@ -1,0 +1,136 @@
+body{
+    background: #EEEEEE;
+}
+.logo-cis-main{
+    font-family: 'Monoton', cursive;
+    text-align : center;
+    padding-top: 20px;
+    font-size: 95px;
+}
+
+.p1{
+    font-family: calibri;
+    font-size: 30px;
+    padding-bottom: 35px;
+    text-align: center;
+}
+
+.p2{
+    font-family: calibri;
+    font-size: 20px;
+    text-align: center;
+}
+
+.logo-cis{
+    font-family: 'Monoton', cursive;    
+    margin-left: 30px;
+    font-size: 30px;
+}
+h2 {
+    text-align: center;
+}
+.centered-form{
+    margin-top: 60px;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+#frm{
+    border: solid gray 1px;
+    width: 60%;
+    border-radius: 5px;
+    /* background: #9E9494; */
+    margin: 100px auto;
+    padding: 50px;
+}
+
+#frm2{
+    border: solid gray 1px;
+    width: 30%;
+    border-radius: 5px;
+    margin: 100px auto;
+    padding: 50px;
+}
+
+.btn-login{
+    margin: auto;
+    align : center;
+    padding-top: 60px;
+    width: 5%;
+}
+
+.search-form .form-group {
+    float: right !important;
+    transition: all 0.35s, border-radius 0s;
+    width: 32px;
+    height: 32px;
+    background-color: #fff;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+}
+.search-form .form-group input.form-control {
+    padding-right: 20px;
+    border: 0 none;
+    background: transparent;
+    box-shadow: none;
+    display:block;
+}
+.search-form .form-group input.form-control::-webkit-input-placeholder {
+    display: none;
+}
+.search-form .form-group input.form-control:-moz-placeholder {
+    /* Firefox 18- */
+    display: none;
+}
+.search-form .form-group input.form-control::-moz-placeholder {
+    /* Firefox 19+ */
+    display: none;
+}
+.search-form .form-group input.form-control:-ms-input-placeholder {
+    display: none;
+}
+.search-form .form-group:hover,
+.search-form .form-group.hover {
+    width: 100%;
+    border-radius: 4px 25px 25px 4px;
+}
+.search-form .form-group span.form-control-feedback {
+    position: absolute;
+    top: -1px;
+    right: -2px;
+    z-index: 2;
+    display: block;
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    color: #3596e0;
+    left: initial;
+    font-size: 14px;
+}
+
+
+div.transbox {
+    margin: 30px;
+    background-color: #9E9E9E;
+    border: 1px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+div.transbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+}
+
+input[type=text] {
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+    width: 100%;
+}
